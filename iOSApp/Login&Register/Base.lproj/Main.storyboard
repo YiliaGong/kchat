@@ -1252,7 +1252,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="1RC-0S-emZ" kind="push" id="VEy-LZ-vpV"/>
+                                            <segue destination="1RC-0S-emZ" kind="presentation" id="VEy-LZ-vpV"/>
                                         </connections>
                                     </button>
                                 </subviews>

@@ -34,6 +34,7 @@ class NewGroupViewController: UIViewController {
     @IBAction func backButtonPressed(_ sender: Any) {
      let _ = navigationController?.popViewController(animated: true)
     }
+    
     // Display alert message function
     func displayAlertMessage(mymessage:String) {
         let myAlert = UIAlertController(title:"Error", message:mymessage, preferredStyle:.alert);
@@ -48,15 +49,5 @@ class NewGroupViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
